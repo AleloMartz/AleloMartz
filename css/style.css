@@ -1,0 +1,290 @@
+html, body{
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background-color: white;
+	text-align: center;
+}
+
+h1{
+	font-weight: 700;
+}
+
+
+/*============= Nav Bar Style =============*/
+.navbar-default{
+	background-color: white;
+	margin-bottom: 0px;
+	color: #101010;
+	font-size: 15px;
+}
+
+.navbar-brand{
+	width: 130px;
+	margin-top: -14px;
+}
+
+/*============= END Nav Bar Style =============*/
+
+/*============= Hero =============*/
+.hero{
+	height: 800px;
+	background: url("img/hero.png");
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+
+.hero> .jumbotron {
+	background-color: rgba(0,0,0,0);
+	max-width: 950px;
+	margin: 200px auto;
+	color: white;
+
+}
+.btn-group-lg>.btn, .btn-lg{
+	padding: 14px 50px;
+}
+
+
+/*============= END Hero =============*/
+
+/*============= Servicios =============*/
+img.img-circle{
+	border-radius: 0%;
+	width: 50px;
+
+}
+
+.servicios{
+	margin-bottom: 50px;
+	line-height: 1.7;
+}
+/*============= END Servicios =============*/
+
+
+/*============= Sobre Nosotros =============*/
+#sn{
+	background: url("img/sobrenosotros.png");
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    /*height: 450px;*/
+}
+
+#sn> .jumbotron{
+	color: #101010;
+	margin: 30px auto;
+	background-color: rgba(0,0,0,0);
+}
+
+#repeat{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 2.5em;
+}
+
+#repeat> span{
+	font-weight: 300;
+}
+
+
+#sn> .jumbotron> p{
+	font-size: 1.2em;
+	line-height: 2;	
+	margin: 0 20% 20px 20%;
+}
+#sn> .jumbotron> p> strong{
+	text-transform: uppercase;
+}
+
+
+
+.jumbotron p{
+	margin-bottom: 20px;
+}
+
+.btn-primary{
+	background-color: #2e2e2e;
+	border: none;
+	color: white;
+	transition: 0.2s ease-in;
+}
+
+.btn-primary:hover, .btn-primary:active:hover{
+	transition: 0.2s ease-in;
+	background-color: #101010;
+	color: white;
+}
+
+/*============= END Sobre Nosotros =============*/
+
+/*============= Fun facts =============*/
+.stat {
+   margin: 20px auto;
+   text-align:center;
+}
+
+.highlight {
+   color:#2e2e2e;
+   padding:10px 0;
+   font-weight: 700;
+   display: block;
+   overflow: hidden;
+   font-size:3em;
+}
+
+.stat i {
+	color:#656565;
+}
+
+.milestone-details {
+   font-size:1.5em;
+   color:#999;
+}
+/*============= END Fun facts =============*/
+
+/*============= Procesos =============*/
+.procesos{
+	min-height: 600px;
+	/*margin-top: 20px;*/
+	background-image: url("img/procesos.png");
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+	color: white;
+	z-index: -1;
+}
+
+.process-items{
+	margin-bottom: 210px;
+}
+
+.procesos-p{
+	margin: 0 20% 20px 20%;
+}
+
+.procesos-item:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+
+.procesos-item, .procesos-item:hover{
+	transition: 0.3s ease-in;
+	border-radius: 8px;
+}
+
+.procesos-title{
+	margin: 50px auto 50px;
+}
+/*============= END Procesos =============*/
+
+/*============= Contact =============*/
+	.contact{
+		background-image: url(img/map.png);
+		background-repeat: no-repeat;
+    	background-position: right top;
+    	background-size: cover;
+	}
+
+	.well{
+		margin-top: -180px;
+		background-color: #fff;
+		border-radius: 4px;
+		z-index: 10;
+	}
+
+
+    .header {
+        font-size: 40px;
+        font-size: 700;
+        padding: 10px;
+    }
+
+    .form-control{
+    }
+
+    .form-control:focus{
+    	border-color: #b7b7b7;
+    	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 
+    	0 0 8px rgba(183,183,183,.6) ;
+    	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 
+    	0 0 8px rgba(183,183,183,.6);
+    }
+
+    legend{
+    	font-weight: 800;
+    }
+/*============= END Contact =============*/
+
+
+.footer > .container-fluid{
+	background-color: #111111;
+	height: 50px;
+}
+
+.text-muted{
+	font-weight: 300;
+	color: white;
+	margin: 15px auto;
+}
+
+
+.navbar-default .navbar-toggle{
+	border-color: transparent;
+	background-color: transparent;
+}
+
+
+.navbar-default .navbar-toggle:focus{
+	background-color: transparent;
+}
+
+
+.btn-primary.focus, .btn-primary:focus{
+	background-color: #111111;
+	border-color: transparent;
+}
+/*============= Media Querys =============*/
+
+@media screen and (min-width: 768px) {
+	.hero>.jumbotron .h1, .jumbotron h1{
+		font-size: 6em;
+	}
+	.form-control{
+		margin-bottom: 16px;
+	}
+
+	fieldset{
+		margin: 60px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	.hero{
+		min-height: 600px;
+	}
+
+	.hero>.jumbotron{
+		margin: 160px 0 160px 0;
+		min-height: 400px;
+	}
+
+	.jumbotron .h1, .jumbotron h1{
+		font-size: 4em;
+	}
+	#sn> .jumbotron> p, .procesos-p{
+		margin: 0 auto 20px;
+	}
+
+
+	.form-control{
+		margin-bottom: 16px;
+	}
+
+	fieldset{
+		margin: 20px;
+	}
+}
